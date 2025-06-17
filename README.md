@@ -1,29 +1,34 @@
-# valvig-board
+# ValvigBoard - Dashboard Admin Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+> Dashboard d'administration complet construit avec Vue 3 + Pinia + TailwindCSS
 
-## Recommended IDE Setup
+## 🧰 Stack utilisée
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 (Composition API)
+- Pinia pour la gestion d’état
+- Vue Router 4
+- TailwindCSS
+- Axios
+- Chart.js
+- VeeValidate + Yup
+- Mock Service Worker pour simuler une API
 
-## Customize configuration
+## 🔥 Fonctionnalités
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Authentification simulée avec JWT
+- Layout responsive avec menu latéral
+- Graphiques dynamiques
+- CRUD utilisateurs et produits
+- Formulaires dynamiques validés
+- Mode sombre
+- Tests unitaires avec Vitest
+- Déployé avec Vercel
 
-## Project Setup
+## 📦 Installation
 
-```sh
-yarn
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+```bash
+git clone https://github.com/GustaveFortune/valvig-board.git
+cd valvig-board
+yarn install
 yarn dev
-```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
 ```
