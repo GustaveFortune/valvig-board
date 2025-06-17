@@ -24,6 +24,10 @@
 - Tests unitaires avec Vitest
 - Déployé avec Vercel
 
+## 🚀 Démo live
+
+👉 Voir la démo // TODO
+
 ## 📦 Installation
 
 ```bash
@@ -32,3 +36,7 @@ cd valvig-board
 yarn install
 yarn dev
 ```
+
+## 📄 Licence
+
+MIT
